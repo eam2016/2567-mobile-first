@@ -14,58 +14,63 @@
 <header>
 	<div class="row">
 		<div class="col-1-2">
-			<h1><a href="#"><img src="img/logo.png" alt="" width="110"></a></h1>
+			<h1><a href="#"><img src="img/logo.png" alt="project" width="110"></a></h1> 
 		</div>
 		<nav class="col-1-2">
 			<ul>
 				<li><a href="#">home</a></li>
-				<li><a href="#">work</a></li>
-				<li><a href="#">about</a></li>
+				<li><a href="#work">work</a></li>
+				<li><a href="#about">about</a></li>
 			</ul>
 		</nav>
 	</div>
 	<div class="col-4-7 nf">
 		<p>we design things</p>
 		<p>Lorem ipsum dolor sit amet, indoctum dissentiet eam ne. Eum omnium docendi cu. Aliquid delenit an pri, ad mea nostrud nominavi menandri.</p>
-		<p><a href="#" class="btn">hire us</a></p>
-		<p><a href="#" class="btn">view work</a></p>
+		<div class="flex-container">
+			<div class="flex-container">
+				<p class="flex-item"><a href="#" class="btn">hire us</a></p>
+				<p class="flex-item"><a href="#" class="btn">view work</a></p>
+			</div>
+		</div>
+		
 	</div>
 </header>
 
-<div class="row">
-	<section class="col-1-4">
-		<header>
-			<h2>print design</h2>
-		</header>
-		<p>Nam purto solet eu, vero mediocrem hendrerit ad ius.</p>
-	</section>
-	<section class="col-1-4">
-		<header>
-			<h2>interactive</h2>
-		</header>
-		<p>Vix ad posse impetus, vis id quem nobis suscipiantur. His an assum omnium periculis. </p>
-	</section>
-	<section class="col-1-4">
-		<header>
-			<h2>app design</h2>
-		</header>
-		<p>Exerci antiopam constituam per ex, pro odio enim te, ut eam quidam docendi ancillae. Id nisl appareat mel.</p>
-	</section>
-	<section class="col-1-4">
-		<header>
-			<h2>branding</h2>
-		</header>
-		<p>Lorem ipsum dolor sit amet, indoctum dissentiet eam ne. Eum omnium docendi cu. </p>
-	</section>
+<div class="row" id="work">
+	<div class="flex">
+		<section class="col-1-4">
+			<header>
+				<h2>print design</h2>
+			</header>
+			<p>Nam purto solet eu, vero mediocrem hendrerit ad ius.</p>
+		</section>
+		<section class="col-1-4">
+			<header>
+				<h2>interactive</h2>
+			</header>
+			<p>Vix ad posse impetus, vis id quem nobis suscipiantur. His an assum omnium periculis. </p>
+		</section>
+		<section class="col-1-4">
+			<header>
+				<h2>app design</h2>
+			</header>
+			<p>Exerci antiopam constituam per ex, pro odio enim te, ut eam quidam docendi ancillae. Id nisl appareat mel.</p>
+		</section>
+		<section class="col-1-4">
+			<header>
+				<h2>branding</h2>
+			</header>
+			<p>Lorem ipsum dolor sit amet, indoctum dissentiet eam ne. Eum omnium docendi cu. </p>
+		</section>
+	</div>
 </div>
 
-<div class="wrapper">
-	<div class="col-5-8 nf">
-		<header>
-			<h2>our team</h2>
-		</header>
+<section class="wrapper" id="about">
+	<header class="col-5-8 nf"> <!-- this could be the header to the whole section instead of just the H2??? --> 
+		<h2>our team</h2>
 		<p>Ea expetenda prodesset cum, tibique principes laboramus id pro. Ei dolorem facilis volutpat sed, eu pro dicta iracundia scripserit. Vel singulis posidonium ea, primis possim voluptatum ei has. Ut usu sale modus liberavisse. Eos reque mnesarchum ea, ea tamquam disputando has.</p>
-	</div>
+	</header>
 
 
 	<div class="row">
@@ -140,15 +145,15 @@
 			</div>
 		</section>
 	</div>
-</div>
+</section>
 
 <footer class="row">
-	<div class="col-1-12"><a href="#"><img src="img/logo-wht.png" alt=""></a></div>
+	<div class="col-1-12"><a href="#"><img src="img/logo-wht.png" alt="project"></a></div>
 	<nav class="col-2-3">
 		<ul>
 			<li><a href="#">home</a></li>
-			<li><a href="#">work</a></li>
-			<li><a href="#">about</a></li>
+			<li><a href="#work">work</a></li>
+			<li><a href="#about">about</a></li>
 		</ul>
 	</nav>
 	<div class="col-1-4 push-right">
